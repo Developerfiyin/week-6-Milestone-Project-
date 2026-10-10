@@ -74,18 +74,56 @@ print(
 # Display results for the selected year.
 print(f"\n--- Results for {chosen_year} ---")
 
+# if year_count > 0:
+#     average = year_total / year_count
+
+#     print(f"Average life expectancy: {average:.3f} years")
+#     print(
+#         f"Lowest: {year_lowest:.3f} years in "
+#         f"{year_lowest_country}"
+#     )
+#     print(
+#         f"Highest: {year_highest:.3f} years in "
+#         f"{year_highest_country}"
+#     )
+# else:
+#     print(f"No country data was found for the year {chosen_year}.")
+
+# Display the overall results.
+print("\n" + "=" * 45)
+print("🌍 THE WORLD'S LIFE EXPECTANCY DISCOVERY")
+print("=" * 45)
+
+print(
+    f"📉 Lowest life expectancy: {lowest_life:.3f} years"
+    f" — {lowest_country} ({lowest_year})"
+)
+
+print(
+    f"📈 Highest life expectancy: {highest_life:.3f} years"
+    f" — {highest_country} ({highest_year})"
+)
+
+# Display results for the selected year.
+print("\n" + "=" * 45)
+print(f"🔎 YOUR YEAR-IN-FOCUS: {chosen_year}")
+print("=" * 45)
+
 if year_count > 0:
     average = year_total / year_count
 
-    print(f"Average life expectancy: {average:.3f} years")
+    print(f"📊 Average life expectancy: {average:.3f} years")
     print(
-        f"Lowest: {year_lowest:.3f} years in "
-        f"{year_lowest_country}"
+        f"⬇️ Lowest: {year_lowest:.3f} years"
+        f" — {year_lowest_country}"
     )
     print(
-        f"Highest: {year_highest:.3f} years in "
-        f"{year_highest_country}"
+        f"⬆️ Highest: {year_highest:.3f} years"
+        f" — {year_highest_country}"
     )
+    print("\n✨ Every number tells a story about human life!")
 else:
-    print(f"No country data was found for the year {chosen_year}.")
+    print(f"Sorry! No country data was found for {chosen_year}.")
+    print("Try another year to continue your discovery.")
 
+print("\nThank you for exploring the world with us! 🌎")
