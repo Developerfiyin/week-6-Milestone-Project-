@@ -1,10 +1,4 @@
 
-"""
-Life Expectancy Explorer helps us discover how life expectancy has
-changed across countries and years by finding important statistics.
-It also lets us explore the average, highest, and lowest values for a year.
-"""
-
 chosen_year = int(input("Enter a year to analyze: "))
 
 lowest_life = None
