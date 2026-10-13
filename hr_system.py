@@ -1,4 +1,5 @@
 
+
 chosen_year = int(input("Enter a year to analyze: "))
 
 lowest_life = None
