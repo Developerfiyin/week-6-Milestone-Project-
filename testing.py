@@ -1,5 +1,10 @@
 
 # OPEN THE FILE
-with open(" hr_system.text ") as hr_system : 
+with open("hr_system.txt") as hr_system : 
     # FIND THE ERROR
-  next();
+    
+  next()
+
+
+for line in hr_system : 
+    print(line)
