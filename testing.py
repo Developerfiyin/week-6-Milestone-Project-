@@ -1,20 +1,14 @@
 
-# OPEN THE FILE
-with open("hr_system.txt") as hr_system: 
-    # FIND THE ERROR
+# # OPEN THE FILE
+# with open("hr_system.txt") as hr_system: 
+#     # FIND THE ERROR
     
-      next(hr_system)
+#       next(hr_system)
 
 
-for line in hr_system : 
-    print(line)
+# for line in hr_system : 
+#     print(line)
 
-
-"""
-Author: Brother Burton
-
-Purpose: Practice working with files.
-"""
 
 with open("hr_system.txt") as f:
     # The file has now been opened and stored in a variable "f"
