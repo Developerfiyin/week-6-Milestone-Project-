@@ -18,7 +18,7 @@ with open("hr_system.txt") as f:
 
     # Read each line, one by one, into a variable: current_line
     for line in f:
-        # Strip off leading/trailing whitespace.
+        # Strip off leading/trailing whitespace.-
         # This is important, otherwise, our last variable will have \n characters with it.
         clean_line = line.strip()
 
